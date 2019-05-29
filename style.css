@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+  margin: 30px 30px;
+}
+.sfondo {
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 20px;
+}
+.roma {
+  background-image: url("immagini/colosseo.jpg");
+  width: 100%;
+  background-size: cover;
+}
+.copenaghen {
+  background-image: url("immagini/copenaghen.jpg");
+  width: 100%;
+  background-size: cover;
+}
+.tokyo {
+  background-image: url("immagini/Tokyo.jpg");
+  width: 100%;
+  background-size: cover;
+}
+#nome1 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+}
+#nome2 {
+  position: relative;
+  top: 50%;
+  left: 45%;
+  /* transform: translate(-5%, -50%); */
+}
+#nome3 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-5%, -50%); */
+}
